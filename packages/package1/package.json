@@ -1,0 +1,16 @@
+{
+  "name": "@project/project1",
+  "version": "0.1.0",
+  "packageManager": "yarn@3.1.1",
+  "scripts": {
+    "build": "yarn g:tsc -b",
+    "clean": "yarn g:rimraf dist",
+    "lint": "yarn g:eslint .",
+    "lint:fix": "yarn g:eslint --fix .",
+    "format": "yarn g:prettier src",
+    "format:fix": "yarn g:prettier -w src"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.14"
+  }
+}
